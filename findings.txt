@@ -1,0 +1,15 @@
+Summarise your findings here (see specification).
+
+Extremely Hard
+File: mystery1.dat
+Reason: By visual inspection, the board contains the least amount of numbers and therfore would require more time/logic to solve by a human
+        Additionally,the board solver function recursed on itself 421546 times to solve the board which was signifacntly larger than for mystery3.dat
+
+Hard
+File: mystery3.dat
+Reason: The board solver function recursed on itself 25665 times to solve the board which was just over half the number of times it took to solve myster1.dat.
+        Addtioanlly the board by visual inspection contains more numbers to start off with and therfore would require less time/logic to solve by a human.
+
+Not Solvable
+File: mystery2.dat
+Reason: The solver function returned false for the myster2.dat file and therefore as I used a brute force method of trying every possible number in every possible cell and it still failed the board cannot be solved.
